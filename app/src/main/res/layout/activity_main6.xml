@@ -43,20 +43,21 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <!-- Imagem do discípulo Pedro -->
+        <!-- Imagem do discípulo João -->
         <ImageView
             android:id="@+id/imgResultado"
             android:layout_width="220dp"
             android:layout_height="300dp"
-            android:src="@drawable/Pedro"
+            android:src="@drawable/João"
             android:scaleType="fitCenter"
-            android:layout_marginBottom="24dp" />
+            android:layout_marginBottom="24dp"
+            android:background="@android:color/transparent" />
 
         <!-- Nome do discípulo -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Você se parece com Pedro!"
+            android:text="Você se parece com João!"
             android:textSize="18sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -64,11 +65,11 @@
             android:gravity="center"
             android:layout_marginBottom="24dp" />
 
-        <!-- Descrição de Pedro -->
+        <!-- Descrição de João -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pedro era corajoso, impulsivo e cheio de fé. Assim como ele, você age com intensidade, defende o que acredita e está sempre pronto para se levantar, mesmo após tropeçar."
+            android:text="João era amoroso, sensível e próximo de Jesus. Como ele, você valoriza a amizade, tem um coração cheio de compaixão e busca viver em intimidade com Deus."
             android:textSize="14sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -89,5 +90,3 @@
         android:elevation="2dp"
         android:layout_margin="24dp" />
 </LinearLayout>
-
-
