@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F0EB"
     android:orientation="vertical">
 
-    <!-- Cabeçalho -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,6 +14,8 @@
         android:gravity="center_vertical"
         android:background="#A75A33"
         android:padding="16dp">
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -23,7 +26,7 @@
             android:fontFamily="sans-serif-medium" />
     </LinearLayout>
 
-    <!-- Conteúdo Central -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -32,7 +35,9 @@
         android:gravity="center"
         android:padding="24dp">
 
-        <!-- Título -->
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,22 +47,21 @@
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
+        A
 
-        <!-- Imagem do discípulo Mateus -->
+
         <ImageView
             android:id="@+id/imgResultado"
             android:layout_width="220dp"
             android:layout_height="300dp"
-            android:src="@drawable/Mateus"
-            android:scaleType="fitCenter"
             android:layout_marginBottom="24dp"
-            android:background="@android:color/transparent" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/tome" />
 
-        <!-- Nome do discípulo -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Você se parece com Mateus!"
+            android:text="Você se parece com Tomé!"
             android:textSize="18sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -65,11 +69,11 @@
             android:gravity="center"
             android:layout_marginBottom="24dp" />
 
-        <!-- Descrição de Mateus -->
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mateus era determinado e transformado pela graça. Como ele, você tem um coração ensinável, valoriza a verdade e está disposto a mudar para seguir o propósito de Deus."
+            android:text="Como Tomé, você é analítico e busca compreender profundamente as coisas. Sua busca pela verdade fortalece sua fé."
             android:textSize="14sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -77,7 +81,7 @@
             android:lineSpacingExtra="6dp" />
     </LinearLayout>
 
-    <!-- Botão Voltar -->
+
     <Button
         android:id="@+id/btnVoltarResultado"
         android:layout_width="match_parent"

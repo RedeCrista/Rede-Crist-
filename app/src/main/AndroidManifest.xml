@@ -13,22 +13,22 @@
         android:theme="@style/Theme.Aplicativo"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity6"
+            android:name=".JoaoActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name=".MateusActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".PedroActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".TomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".QuizActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Principal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

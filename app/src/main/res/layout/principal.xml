@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.5"
-        android:src="@drawable/Jesus0"
+        android:src="@drawable/jesus"
         android:scaleType="fitCenter"
         android:layout_marginBottom="24dp" />
 
@@ -39,7 +39,20 @@
         android:id="@+id/btnQuiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="QUIZ DISCÍPULOS"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A75A33"
+        android:layout_marginBottom="16dp"
+        android:text="QUIZ DISCÍPULOS" />
+
+    <!-- Novo botão HUMOR -->
+    <Button
+        android:id="@+id/btnHumor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUMOR"
         android:textAllCaps="true"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
@@ -69,5 +82,4 @@
         android:textColor="#000000"
         android:backgroundTint="#FFFFFF"
         android:elevation="2dp" />
-
 </LinearLayout>

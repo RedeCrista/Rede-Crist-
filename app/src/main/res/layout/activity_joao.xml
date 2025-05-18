@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F0EB"
@@ -13,8 +14,6 @@
         android:gravity="center_vertical"
         android:background="#A75A33"
         android:padding="16dp">
-
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,8 +34,6 @@
         android:padding="24dp">
 
 
-
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,21 +43,22 @@
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
-        A
 
 
         <ImageView
             android:id="@+id/imgResultado"
             android:layout_width="220dp"
             android:layout_height="300dp"
-            android:layout_marginBottom="24dp"
+            android:src="@drawable/joao"
             android:scaleType="fitCenter"
-            android:src="@drawable/Tome" />
+            android:layout_marginBottom="24dp"
+            android:background="@android:color/transparent" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Você se parece com Tomé!"
+            android:text="Você se parece com João!"
             android:textSize="18sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -72,7 +70,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Como Tomé, você é analítico e busca compreender profundamente as coisas. Sua busca pela verdade fortalece sua fé."
+            android:text="João era amoroso, sensível e próximo de Jesus. Como ele, você valoriza a amizade, tem um coração cheio de compaixão e busca viver em intimidade com Deus."
             android:textSize="14sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"

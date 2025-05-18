@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F0EB"
     android:orientation="vertical">
 
-    <!-- Cabeçalho -->
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +25,7 @@
             android:fontFamily="sans-serif-medium" />
     </LinearLayout>
 
-    <!-- Conteúdo Central -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -32,7 +34,7 @@
         android:gravity="center"
         android:padding="24dp">
 
-        <!-- Título -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,21 +45,20 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <!-- Imagem do discípulo João -->
+
         <ImageView
             android:id="@+id/imgResultado"
             android:layout_width="220dp"
             android:layout_height="300dp"
-            android:src="@drawable/João"
+            android:src="@drawable/pedro"
             android:scaleType="fitCenter"
-            android:layout_marginBottom="24dp"
-            android:background="@android:color/transparent" />
+            android:layout_marginBottom="24dp" />
 
-        <!-- Nome do discípulo -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Você se parece com João!"
+            android:text="Você se parece com Pedro!"
             android:textSize="18sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -65,11 +66,11 @@
             android:gravity="center"
             android:layout_marginBottom="24dp" />
 
-        <!-- Descrição de João -->
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="João era amoroso, sensível e próximo de Jesus. Como ele, você valoriza a amizade, tem um coração cheio de compaixão e busca viver em intimidade com Deus."
+            android:text="Pedro era corajoso, impulsivo e cheio de fé. Assim como ele, você age com intensidade, defende o que acredita e está sempre pronto para se levantar, mesmo após tropeçar."
             android:textSize="14sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif"
@@ -77,7 +78,7 @@
             android:lineSpacingExtra="6dp" />
     </LinearLayout>
 
-    <!-- Botão Voltar -->
+
     <Button
         android:id="@+id/btnVoltarResultado"
         android:layout_width="match_parent"
@@ -90,3 +91,5 @@
         android:elevation="2dp"
         android:layout_margin="24dp" />
 </LinearLayout>
+
+
