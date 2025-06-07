@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F0EB"
+    android:gravity="center_horizontal">
+    
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A0522D"
+        android:padding="12dp"
+        android:text="Rede Cristã"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <ImageView
+        android:id="@+id/imagemJesus"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/avatar_jesus"
+        android:contentDescription="Imagem de Jesus" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="De acordo com seu humor:\nSobrecarregado"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVersiculo"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei. Tomai sobre vós o meu jugo, e aprendei de mim, porque sou manso e humilde de coração; e encontrareis descanso para as vossas almas. Porque o meu jugo é suave, e o meu fardo é leve."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Voltar"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
