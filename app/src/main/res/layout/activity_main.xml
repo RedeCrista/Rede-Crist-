@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F0EB"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A0522D"
+        android:padding="12dp"
+        android:text="Rede Cristã"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
+
+    <ImageView
+        android:id="@+id/imageJesus"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/avatar_jesus"
+        android:contentDescription="Imagem de Jesus" />
+
+    <TextView
+        android:id="@+id/textMensagem"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Eu sou Jesus, o Caminho, a Verdade e a Vida. Venho para trazer luz aos que estão na escuridão, esperança aos que perderam a fé, e amor sem medida a todos que me recebem. Minha missão é transformar corações e mostrar que, através do amor, podemos alcançar a verdadeira paz.\n\nComo está seu humor?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTriste"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#A0522D"
+        android:text="Triste"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSobrecarregado"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#A0522D"
+        android:text="Sobrecarregado"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnFeliz"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#A0522D"
+        android:text="Feliz"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Voltar"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
