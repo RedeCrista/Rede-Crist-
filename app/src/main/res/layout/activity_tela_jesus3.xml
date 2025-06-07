@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#F5F0EB"
     android:gravity="center_horizontal">
-    
+
     <TextView
         android:id="@+id/textTitulo"
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         android:id="@+id/textResultado"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:text="De acordo com seu humor:\nSobrecarregado"
+        android:text="De acordo com seu humor:\nTristeza"
         android:textSize="20sp"
         android:textColor="#000000"
         android:gravity="center"
@@ -42,7 +42,7 @@
         android:id="@+id/textVersiculo"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:text="Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei. Tomai sobre vós o meu jugo, e aprendei de mim, porque sou manso e humilde de coração; e encontrareis descanso para as vossas almas. Porque o meu jugo é suave, e o meu fardo é leve."
+        android:text="Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito."
         android:textSize="16sp"
         android:textColor="#000000"
         android:gravity="center"
@@ -54,11 +54,10 @@
         android:id="@+id/btnVoltar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="sans-serif"
         android:text="Voltar"
         android:textColor="#000000"
         android:textStyle="bold" />
-
 </LinearLayout>
