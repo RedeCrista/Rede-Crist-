@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F0EB">
+
+    <!-- Cabeçalho -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#A75A33"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REDE CRISTÃ"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Conteúdo principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="8dp">
+
+        <!-- Imagem grande -->
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/orando"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos de Oração"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Campo Nome -->
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo Pedido (aumentado com weight) -->
+        <EditText
+            android:id="@+id/etPedido"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="top|start"
+            android:hint="Digite seu pedido de oração"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+
+    <!-- Botões finais -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnEnviarWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENVIAR PEDIDO POR WHATSAPP"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A75A33"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="voltar"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="2dp" />
+    </LinearLayout>
+</LinearLayout>

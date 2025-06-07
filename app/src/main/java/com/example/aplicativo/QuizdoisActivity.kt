@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class QuizActivity : AppCompatActivity() {
+class QuizdoisActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.quizdiscipulos)
+        setContentView(R.layout.activity_discipulosdois)
 
         val btn1 = findViewById<Button>(R.id.btn1)
         val btn2 = findViewById<Button>(R.id.btn2)
@@ -17,7 +17,7 @@ class QuizActivity : AppCompatActivity() {
         val btnVoltar = findViewById<Button>(R.id.btnVoltar)
 
         val avancar = {
-            val intent = Intent(this, QuizdoisActivity::class.java)
+            val intent = Intent(this, QuiztresActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -28,7 +28,7 @@ class QuizActivity : AppCompatActivity() {
         btn4.setOnClickListener { avancar() }
 
         btnVoltar.setOnClickListener {
-            val intent = Intent(this, Principal::class.java)
+            val intent = Intent(this, QuizActivity::class.java)
             startActivity(intent)
             finish()
         }

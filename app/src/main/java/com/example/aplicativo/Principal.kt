@@ -11,9 +11,14 @@ class Principal : AppCompatActivity() {
         setContentView(R.layout.principal)
 
         val btnQuiz = findViewById<Button>(R.id.btnQuiz)
-
         btnQuiz.setOnClickListener {
             val intent = Intent(this, QuizActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnWhatsapp = findViewById<Button>(R.id.btnWhatsapp)
+        btnWhatsapp.setOnClickListener {
+            val intent = Intent(this, PedidosActivity::class.java)
             startActivity(intent)
         }
     }
