@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F0EB"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#A75A33"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REDE CRISTÃ"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Seu Resultado:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        A
+
+
+        <ImageView
+            android:id="@+id/imgResultado"
+            android:layout_width="220dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você se parece com Tomé!"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como Tomé, você é analítico e busca compreender profundamente as coisas. Sua busca pela verdade fortalece sua fé."
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnVoltarResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="voltar"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_margin="24dp" />
+</LinearLayout>

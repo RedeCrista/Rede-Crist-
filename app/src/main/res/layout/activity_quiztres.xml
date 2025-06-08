@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom|center_horizontal"
+    android:background="#F5F0EB"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgDiscipulos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:src="@drawable/disc"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvTituloQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ DISCÍPULOS!"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvSubtituloQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Como você geralmente reage a situações desafiadoras?"
+        android:textSize="14sp"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Novos humores -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivado e focado"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A75A33"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desanimado e cansado"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A75A33"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indeciso e confuso"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A75A33"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confiante e tranquilo"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A75A33"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="voltar"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="2dp" />
+</LinearLayout>
