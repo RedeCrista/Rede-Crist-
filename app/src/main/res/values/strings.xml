@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Tela inicial</string>
+=======
+    <string name="app_name">aplicativo</string>
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
 </resources>

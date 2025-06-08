@@ -4,11 +4,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.telainicial"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.telainicial"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

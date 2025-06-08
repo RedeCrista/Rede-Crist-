@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
+=======
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -10,6 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.TelaInicial"
         tools:targetApi="31">
         <activity
@@ -21,9 +25,32 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+=======
+        android:theme="@style/Theme.Aplicativo"
+        tools:targetApi="31">
+
+        <activity android:name=".EnviadoActivity" android:exported="false" />
+        <activity android:name=".PedidosActivity" android:exported="false" />
+        <activity android:name=".QuiztresActivity" android:exported="false" />
+        <activity android:name=".QuizdoisActivity" android:exported="false" />
+        <activity android:name=".JoaoActivity" android:exported="false" />
+        <activity android:name=".MateusActivity" android:exported="false" />
+        <activity android:name=".PedroActivity" android:exported="false" />
+        <activity android:name=".TomeActivity" android:exported="false" />
+        <activity android:name=".QuizActivity" android:exported="false" />
+
+        <!-- Tela principal -->
+        <activity android:name=".Principal" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
 
+<<<<<<< HEAD
 </manifest>
+=======
+</manifest>
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
