@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.telainicial.segunda
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val buttonNext = findViewById<Button>(R.id.buttonNext)
 
         buttonNext.setOnClickListener {
-            val intent = Intent(this, segunda::class.java)
+            val intent = Intent(this, ::class.java)
             startActivity(intent)
         }
     }
