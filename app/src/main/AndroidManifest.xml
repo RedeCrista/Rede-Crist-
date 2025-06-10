@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+=======
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -9,6 +13,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
+        android:theme="@style/Theme.TelaInicial"
+        tools:targetApi="31">
+        <activity
+            android:name=".segunda"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+=======
         android:theme="@style/Theme.Aplicativo"
         tools:targetApi="31">
 
@@ -26,9 +43,14 @@
         <activity android:name=".Principal" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
 
+<<<<<<< HEAD
 </manifest>
+=======
+</manifest>
+>>>>>>> 367a7b50106722084056eeb2ad398b01a6367a1c

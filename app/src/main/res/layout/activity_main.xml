@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A75A33"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="357dp"
+        android:layout_height="362dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="rede cristã"
+        android:src="@drawable/logo_rede_crista" />
+
+    <TextView
+        android:id="@+id/textSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conecte-se com a fé, encontre paz."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:elevation="4dp" />
+
+</LinearLayout>
