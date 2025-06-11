@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F0EB"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Cabeçalho -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A75A33"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REDE CRISTÃ"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Conteúdo Central -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Seu Humor:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgResultado"
+            android:layout_width="220dp"
+            android:layout_height="300dp"
+            android:src="@drawable/jesus"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="24dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você está se sentindo feliz e animado!"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“Alegrai-vos sempre no Senhor; outra vez digo: alegrai-vos.” (Filipenses 4:4)"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+
+    <!-- Botão Voltar -->
+    <Button
+        android:id="@+id/btnVoltarResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="2dp" />
+</LinearLayout>

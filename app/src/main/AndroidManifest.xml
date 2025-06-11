@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.aplicativo">
 
+    <!-- Permissão para uso da internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,18 +17,22 @@
         android:theme="@style/Theme.TelaInicial"
         tools:targetApi="31">
 
-        <activity android:name=".PedroActivity" android:exported="false" />
+        <!-- Telas do app -->
+        <activity android:name=".EnviadoActivity" android:exported="false" />
+        <activity android:name=".FelizActivity" android:exported="false" />
+        <activity android:name=".HumorActivity" android:exported="false" />
         <activity android:name=".JoaoActivity" android:exported="false" />
         <activity android:name=".MateusActivity" android:exported="false" />
-        <activity android:name=".TomeActivity" android:exported="false" />
-
+        <activity android:name=".PedidosActivity" android:exported="false" />
+        <activity android:name=".PedroActivity" android:exported="false" />
         <activity android:name=".QuizActivity" android:exported="false" />
         <activity android:name=".QuizdoisActivity" android:exported="false" />
         <activity android:name=".QuiztresActivity" android:exported="false" />
+        <activity android:name=".QuizPontuacao" android:exported="false" />
+        <activity android:name=".TomeActivity" android:exported="false" />
+        <activity android:name=".TristeActivity" android:exported="false" />
 
-        <activity android:name=".PedidosActivity" android:exported="false" />
-        <activity android:name=".EnviadoActivity" android:exported="false" />
-
+        <!-- Tela principal (MainActivity) -->
         <activity android:name=".Principal" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +41,4 @@
         </activity>
 
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
 </manifest>

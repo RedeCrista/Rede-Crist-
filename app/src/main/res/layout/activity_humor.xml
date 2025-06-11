@@ -8,75 +8,67 @@
     android:padding="24dp">
 
     <ImageView
+        android:id="@+id/imgHumor"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.5"
-        android:src="@drawable/jesus"
+        android:src="@drawable/disc"
         android:scaleType="fitCenter"
         android:layout_marginBottom="24dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bem vindo, usuário!"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:fontFamily="sans-serif"
-        android:layout_marginBottom="16dp" />
-
-    <TextView
+        android:id="@+id/tvTituloHumor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aqui, sua fé encontra conexão. Explore versículos inspiradores, receba mensagens diárias e descubra mais sobre sua jornada espiritual. Que este espaço seja um canal de bênçãos para sua vida!"
+        android:text="COMO VOCÊ ESTÁ SE SENTINDO HOJE?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvSubtituloHumor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha abaixo o humor que melhor descreve o seu momento atual:"
         android:textSize="14sp"
         android:lineSpacingExtra="6dp"
         android:textColor="#000000"
         android:fontFamily="sans-serif"
         android:gravity="center"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="24dp" />
 
     <Button
-        android:id="@+id/btnQuiz"
+        android:id="@+id/btnFeliz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAllCaps="true"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
+        android:text="Feliz e animado"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:backgroundTint="#A75A33"
-        android:layout_marginBottom="16dp"
-        android:text="QUIZ DISCÍPULOS" />
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
 
     <Button
-        android:id="@+id/btnHumor"
+        android:id="@+id/btnTriste"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HUMOR"
-        android:textAllCaps="true"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
+        android:text="Triste ou desanimado"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:backgroundTint="#A75A33"
-        android:layout_marginBottom="16dp" />
-
-    <Button
-        android:id="@+id/btnWhatsapp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="VIA WHATSAPP"
-        android:textAllCaps="true"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#A75A33"
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="voltar"
+        android:text="Voltar"
         android:textAllCaps="false"
         android:fontFamily="sans-serif"
         android:textColor="#000000"

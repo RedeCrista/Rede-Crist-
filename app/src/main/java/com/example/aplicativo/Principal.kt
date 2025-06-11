@@ -26,11 +26,11 @@ class Principal : AppCompatActivity() {
         }
 
         btnVoltar.setOnClickListener {
-            finish() // Fecha a tela atual e volta para a anterior
+            finish()
         }
 
         btnHumor.setOnClickListener {
-            val intent = Intent(this, PedidosActivity::class.java)
+            val intent = Intent(this, HumorActivity::class.java)
             startActivity(intent)
         }
     }
