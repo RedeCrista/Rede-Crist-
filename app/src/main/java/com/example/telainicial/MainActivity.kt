@@ -1,4 +1,4 @@
-package com.example.telainicial
+package com.example.aplicativo
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val buttonNext = findViewById<Button>(R.id.buttonNext)
 
         buttonNext.setOnClickListener {
-            val intent = Intent(this, ::class.java)
+            val intent = Intent(this, Principal::class.java)
             startActivity(intent)
         }
     }
