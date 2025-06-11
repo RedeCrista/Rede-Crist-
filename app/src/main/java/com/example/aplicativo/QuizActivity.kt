@@ -16,21 +16,37 @@ class QuizActivity : AppCompatActivity() {
         val btn4 = findViewById<Button>(R.id.btn4)
         val btnVoltar = findViewById<Button>(R.id.btnVoltar)
 
-        val avancar = {
-            val intent = Intent(this, QuizdoisActivity::class.java)
-            startActivity(intent)
-            finish()
+        QuizPontuacao.resetar()
+
+        btn1.setOnClickListener {
+            QuizPontuacao.pontosPedro += 1
+            avancar()
         }
 
-        btn1.setOnClickListener { avancar() }
-        btn2.setOnClickListener { avancar() }
-        btn3.setOnClickListener { avancar() }
-        btn4.setOnClickListener { avancar() }
+        btn2.setOnClickListener {
+            QuizPontuacao.pontosJoao += 1
+            avancar()
+        }
+
+        btn3.setOnClickListener {
+            QuizPontuacao.pontosMateus += 1
+            avancar()
+        }
+
+        btn4.setOnClickListener {
+            QuizPontuacao.pontosTome += 1
+            avancar()
+        }
 
         btnVoltar.setOnClickListener {
-            val intent = Intent(this, Principal::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, Principal::class.java))
             finish()
         }
+    }
+
+    private fun avancar() {
+        val intent = Intent(this, QuizdoisActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
