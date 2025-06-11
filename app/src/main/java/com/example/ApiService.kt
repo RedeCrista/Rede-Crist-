@@ -17,7 +17,7 @@ interface ApiService {
 }
 
 object RetrofitClient {
-    private const val BASE_URL = "http://10.0.2.2:8080/" // ou o IP da sua máquina na rede, se for real device
+    private const val BASE_URL = "https://backendcristao-user123.repl.co/"
 
     val apiService: ApiService by lazy {
         Retrofit.Builder()
